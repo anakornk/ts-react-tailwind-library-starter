@@ -1,6 +1,7 @@
 {
   "name": "ts-react-tailwind-library-starter",
-  "private": true,
+  "private": false,
+  "license": "MIT",
   "version": "0.0.0",
   "files": [
     "dist"
