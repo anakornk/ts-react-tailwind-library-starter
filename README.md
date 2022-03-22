@@ -10,6 +10,7 @@ Install dependencies and start developing components
 yarn install # install depedencies
 yarn storybook # run storybook
 yarn build # build the library
+yarn publish # publish the library
 ```
 
 You can also use the built-in site to test or document your components
