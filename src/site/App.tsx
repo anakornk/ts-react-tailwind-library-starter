@@ -1,9 +1,11 @@
 import { useState } from 'react';
 import logo from './logo.svg';
-import { Swipebar } from '../components/swipebar';
+import { ToggleSwitch } from '../components/ToggleSwitch';
+import { Button } from '../components/Button';
 
 function App() {
   const [count, setCount] = useState(0);
+  const [enabled, setEnabled] = useState<boolean>(false);
 
   return (
     <div>
@@ -15,7 +17,11 @@ function App() {
             count is: {count}
           </button>
         </p>
-        <Swipebar />
+        <ToggleSwitch
+          enabled={enabled}
+          onChange={(value) => setEnabled(value)}
+        />
+        <Button label={'test'} />
       </header>
     </div>
   );
