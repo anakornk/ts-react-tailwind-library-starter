@@ -31,9 +31,9 @@ yarn preview:site #priview built site
 
 3. In your project root, import the library CSS file
 
-```ts
-import 'ts-react-tailwind-library-starter/dist/style.css';
-```
+   ```ts
+   import 'ts-react-tailwind-library-starter/dist/style.css';
+   ```
 
 ## Step By Step Guide
 
