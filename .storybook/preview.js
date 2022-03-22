@@ -1,3 +1,4 @@
+import 'tailwindcss/lib/css/preflight.css';
 import '../src/styles/global.css';
 
 export const parameters = {
